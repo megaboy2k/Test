@@ -5,6 +5,7 @@
 /USB_DEVICE
 /STM32CubeIDE/Debug
 /STM32CubeIDE/.settings
+.mxproject
 *.vpj
 *.vpw
 *.vpwhist
