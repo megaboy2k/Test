@@ -6,7 +6,7 @@
  *
  *  Description:    UART <-> SPI gateway
  *                  Peripheral transactions are done using interrupts.
- *                  UART TX and handler utilizes RTOS semaphore to synchronize with the thread.
+ *                  UART TX handler utilizes RTOS semaphore to synchronize with the thread.
  *                  UART RX handler uses thread-safe FIFO buffer to hand-over data from handler to thread
  *                  with buffering.
  *                  SPI transaction uses its RX complete interrupt to synchronize with the following
