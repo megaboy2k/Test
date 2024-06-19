@@ -1,0 +1,18 @@
+# Temp files and folders
+/Core
+/Drivers
+/Middlewares
+/USB_DEVICE
+/STM32CubeIDE/Debug
+/STM32CubeIDE/.settings
+*.vpj
+*.vpw
+*.vpwhist
+*.vtg
+
+
+
+
+
+
+
